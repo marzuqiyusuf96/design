@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;family=Amiri:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-secondary-container":"#20647e","surface-variant":"#e5e2da","inverse-primary":"#a0c9ff","primary":"#115086","secondary-container":"#a2e0fe","on-primary":"#ffffff","surface-container-highest":"#e5e2da","outline-variant":"#c2c7d1","on-error-container":"#93000a","on-tertiary-container":"#d2e9e5","on-surface":"#1c1c17","on-secondary-fixed-variant":"#004d64","surface-tint":"#2a6198","on-secondary":"#ffffff","inverse-surface":"#31312b","on-secondary-fixed":"#001f2a","error":"#ba1a1a","error-container":"#ffdad6","surface-container-lowest":"#ffffff","surface-container-high":"#ebe8e0","secondary":"#22657f","on-tertiary-fixed":"#0a1f1d","on-tertiary-fixed-variant":"#364b48","inverse-on-surface":"#f4f1e8","tertiary":"#3d524f","tertiary-container":"#556a67","surface-dim":"#dddad2","primary-fixed":"#d2e4ff","surface-bright":"#fcf9f1","secondary-fixed":"#bee9ff","surface-container-low":"#f6f3eb","primary-container":"#3368a0","outline":"#727781","on-tertiary":"#ffffff","background":"#fcf9f1","primary-fixed-dim":"#a0c9ff","on-primary-container":"#d5e5ff","on-primary-fixed":"#001c37","surface":"#fcf9f1","on-background":"#1c1c17","tertiary-fixed-dim":"#b4cbc7","surface-container":"#f1eee6","tertiary-fixed":"#d0e7e3","on-error":"#ffffff","on-primary-fixed-variant":"#01497f","secondary-fixed-dim":"#92cfec","on-surface-variant":"#42474f"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin":"1rem","space-xl":"2.5rem","space-lg":"1.5rem","gutter":"1.25rem","space-xs":"0.25rem","space-sm":"0.5rem","margin-tablet":"1.5rem","margin-desktop":"2rem","space-md":"1rem","gutter-desktop":"1.5rem"},"fontFamily":{"body-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"arabic-display":["\"Amiri, Noto Serif\""]},"fontSize":{"body-md":["0.9375rem",{"lineHeight":"1.5rem","fontWeight":"400"}],"headline-lg":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.015em","fontWeight":"600"}],"label-md":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.02em","fontWeight":"600"}],"label-lg":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"body-sm":["0.8125rem",{"lineHeight":"1.25rem","fontWeight":"400"}],"headline-md":["1.25rem",{"lineHeight":"1.75rem","fontWeight":"600"}],"headline-xl":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.02em","fontWeight":"700"}],"body-lg":["1.125rem",{"lineHeight":"1.75rem","fontWeight":"400"}],"arabic-display":["1.75rem",{"lineHeight":"3rem","fontWeight":"400"}]}}}};</script></head><body class="bg-background font-body-md text-on-background selection:bg-secondary-fixed selection:text-on-secondary-fixed"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-low shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between"><div class="flex flex-col"><div class="p-space-lg flex items-center gap-space-md"><img alt="Logo E-Tahfizh Akademik" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1ViQx5lh6IpHRKamIjlq3ivM5D5Sf5omdsWiItcJrHVE_6tLFMTInoQBH3I01p-gATEriPFPL5z5LEakLdRjGyLkkBmtWX6bJfjK_WuJdAzWGJ5uyNaU1X3322_kjdP1CcpHnlSCy24pKJDdgb5sklZpEypHvTzIlgR_0TCsUS38RhT_u8tABnfHJBPqX02f1YFmAUsI5G2VJ_Id1W-P-9nY4eel6qVK3fIyKHJ75CibA"/><div class="flex flex-col"><span class="font-label-lg text-label-lg text-primary tracking-tight font-bold">E-TAHFIZH SEKOLAH</span><span class="font-label-md text-label-md text-on-surface-variant font-normal">Sistem Capaian Al-Qur'an</span></div></div><div class="px-space-md py-space-xs"><div class="bg-surface-container rounded-xl p-space-sm flex items-center justify-between"><div class="flex flex-col"><span class="font-label-md text-label-md text-on-surface-variant">T.A. 2024/2025</span><span class="font-label-md text-label-md text-on-surface font-semibold">Semester Genap</span></div><span class="px-space-sm py-space-xs rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md font-semibold">Aktif</span></div></div><nav class="mt-space-md px-space-md flex flex-col gap-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-semibold shadow-[0_2px_8px_-2px_rgba(51,104,160,0.2)]"><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="input-setoran-harian" href="#"><span class="material-symbols-outlined text-[20px]">menu_book</span><span class="font-body-md text-body-md">Input Setoran Harian</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="monitoring-capaian-sekolah" href="#"><span class="material-symbols-outlined text-[20px]">analytics</span><span class="font-body-md text-body-md">Monitoring Capaian</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="portal-orang-tua-dan-siswa" href="#"><span class="material-symbols-outlined text-[20px]">family_restroom</span><span class="font-body-md text-body-md">Portal Wali &amp; Siswa</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="rekap-munaqasyah-dan-tasmi" href="#"><span class="material-symbols-outlined text-[20px]">verified</span><span class="font-body-md text-body-md">Munaqasyah &amp; Tasmi'</span></a><a class="flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="rapor-dan-ekspor-siakad" href="#"><span class="material-symbols-outlined text-[20px]">assignment_turned_in</span><span class="font-body-md text-body-md">Rapor &amp; SIAKAD</span></a></nav></div><div class="p-space-md"><div class="bg-surface-container-lowest rounded-xl p-space-md shadow-[0_1px_8px_rgba(0,0,0,0.04)] flex flex-col gap-space-xs"><div class="flex items-center justify-between"><span class="font-label-md text-label-md text-on-surface-variant">Target Mutaba'ah</span><span class="font-label-md text-label-md text-primary font-semibold">82%</span></div><div class="w-full h-1.5 rounded-full bg-surface-variant overflow-hidden"><div class="h-full bg-primary-container rounded-full w-[82%]"></div></div><span class="font-body-sm text-body-sm text-on-surface-variant">Juz 29-30 Tuntas Pekan Ini</span></div></div></aside><div class="pl-72 flex flex-col min-h-screen"><header class="fixed top-0 left-72 right-0 h-20 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 px-space-xl flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-sm bg-surface-container-lowest px-space-md py-space-xs rounded-full shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><span class="inline-block w-2.5 h-2.5 rounded-full bg-secondary"></span><span class="font-label-md text-label-md text-on-surface font-medium">Sesi Halaqah Pagi (07:15 - 08:30 WIB)</span></div><button class="flex items-center gap-space-xs px-space-md py-space-xs rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[18px] text-primary">swap_horiz</span><span class="font-label-md text-label-md font-semibold">Halaqah Al-Fatih (7A)</span><span class="material-symbols-outlined text-[16px] text-on-surface-variant">expand_more</span></button><div class="flex items-center gap-space-xs font-label-md text-label-md text-tertiary"><span class="material-symbols-outlined text-[18px] text-secondary">cloud_done</span><span class="font-label-md text-label-md">Sinkron Online</span></div></div><div class="flex items-center gap-space-md"><button aria-label="Notifikasi Mutaba'ah" class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span></button><div class="flex items-center gap-space-md pl-space-sm"><div class="flex flex-col text-right"><span class="font-label-lg text-label-lg text-on-surface font-semibold">Ustadz Ahmad Fauzi, S.Pd.I</span><span class="font-body-sm text-body-sm text-on-surface-variant">Pembimbing Halaqah Al-Fatih (Kelas 7A)</span></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGYr9p8BkWpXhTbR6mNfFxtQvZSdcnZAxXhn8881I8Kz82z5DZ9dvI8qrHHhugThYakXHPyAzBq7X2yxJm9qMQWpzuXI3jBE64jSR6-_s0SeFZ10sfofiTCl1uGGx1bFxYUVgwh63hDoyf3sRGYjNYUMDACVx6Qm_-my3uEDmsiemlMUrCQs5uE4ItnJqxa79Vn7MoJ6QLBYwh1f4vRYtTb8dB44J9XnuFlMgv3M1q"/></div></div></header><main class="relative pt-20 w-full px-space-xl bg-background flex-1"><div class="flex flex-col w-full pb-space-xl">
+<!-- Dynamic Sidebar Nav Synchronizer -->
+<script>
+    (function() {
+      const navLinks = document.querySelectorAll('aside nav a');
+      navLinks.forEach(link => {
+        if (link.getAttribute('data-path') === 'monitoring-capaian-sekolah') {
+          link.className = 'flex items-center gap-space-md px-space-md py-space-sm rounded-xl bg-primary-container text-on-primary-container font-semibold shadow-[0_2px_8px_-2px_rgba(51,104,160,0.2)] transition-all';
+        } else {
+          link.className = 'flex items-center gap-space-md px-space-md py-space-sm rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all';
+        }
+      });
+    })();
+  </script>
+<!-- Top Action & Filter Toolbar -->
+<div class="flex flex-col gap-space-md py-space-md mb-space-sm">
+<div class="flex flex-col xl:flex-row xl:items-center justify-between gap-space-md">
+<!-- Title & Live Meta Badge -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md font-semibold tracking-wide uppercase">
+            Admin Eksekutif
+          </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="inline-block w-2 h-2 rounded-full bg-secondary"></span>
+            Sinkronisasi SIAKAD Terakhir: 10 menit lalu
+          </span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary font-bold tracking-tight">
+          Monitoring Capaian Al-Qur'an &amp; Mutaba'ah Halaqah
+        </h1>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Evaluasi progres kurikulum Tahsin &amp; Tahfizh terpadu SD-IT, SMP-IT, &amp; SMA-IT
+        </p>
+</div>
+<!-- Quick Action Buttons -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<button class="inline-flex items-center gap-space-xs px-space-md h-10 rounded-xl bg-surface-container-lowest text-primary shadow-sm hover:bg-surface-container-low transition-colors font-label-lg text-label-lg" type="button">
+<span class="material-symbols-outlined text-[18px]">settings</span>
+<span>Setting Target Kurikulum</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md h-10 rounded-xl bg-surface-container-lowest text-primary shadow-sm hover:bg-surface-container-low transition-colors font-label-lg text-label-lg" type="button">
+<span class="material-symbols-outlined text-[18px]">file_download</span>
+<span>Ekspor SIAKAD (.xlsx)</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-lg h-10 rounded-xl bg-primary-container text-on-primary-container shadow-md hover:bg-primary transition-all font-label-lg text-label-lg font-semibold" type="button">
+<span class="material-symbols-outlined text-[20px]">print</span>
+<span>Cetak Rapor Massal</span>
+</button>
+</div>
+</div>
+<!-- Filter Pills & Semester Selector Bar -->
+<div class="bg-surface-container-lowest p-space-sm rounded-2xl shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<!-- Grade Level Tabs -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-1 md:pb-0" id="gradeFilterContainer">
+<button class="px-space-md py-space-xs rounded-xl bg-primary-container text-on-primary-container font-label-lg text-label-lg font-semibold shadow-sm transition-all whitespace-nowrap" type="button">
+          Semua Jenjang
+        </button>
+<button class="px-space-md py-space-xs rounded-xl bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface font-label-lg text-label-lg transition-all whitespace-nowrap" type="button">
+          SD-IT (Kelas 1-6)
+        </button>
+<button class="px-space-md py-space-xs rounded-xl bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface font-label-lg text-label-lg transition-all whitespace-nowrap" type="button">
+          SMP-IT (Kelas 7-9)
+        </button>
+<button class="px-space-md py-space-xs rounded-xl bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface font-label-lg text-label-lg transition-all whitespace-nowrap" type="button">
+          SMA-IT (Kelas 10-12)
+        </button>
+</div>
+<!-- Time Scope Indicator & Selector -->
+<div class="flex items-center gap-space-sm pl-space-xs">
+<div class="flex items-center gap-space-xs px-space-md py-space-xs rounded-xl bg-surface-container text-on-surface">
+<span class="material-symbols-outlined text-[18px] text-primary">calendar_month</span>
+<span class="font-label-lg text-label-lg font-semibold">Semester Genap 2024/2025</span>
+<span class="text-on-surface-variant">|</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Pekan Ke-3 (20-25 Jan)</span>
+</div>
+<button aria-label="Ganti Periode" class="p-2 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Row 1: Executive KPI Cards (4 Cards) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md mb-space-lg">
+<!-- KPI 1: Ketercapaian Target Global -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col justify-between relative overflow-hidden group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Ketercapaian Global</span>
+<span class="font-headline-xl text-headline-xl text-primary font-bold mt-1">84.6%</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[24px]">task_alt</span>
+</div>
+</div>
+<div class="mt-space-md flex flex-col gap-space-xs">
+<div class="w-full bg-surface-container-high rounded-full h-2 overflow-hidden">
+<div class="bg-primary-container h-full rounded-full transition-all duration-700" style="width: 84.6%"></div>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm text-on-surface-variant pt-1">
+<span class="text-secondary font-semibold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[16px]">trending_up</span> +5.2% pekan lalu
+          </span>
+<span class="font-medium text-on-surface">482 / 570 Santri On-Track</span>
+</div>
+</div>
+</div>
+<!-- KPI 2: Siap Munaqasyah / Tasmi' -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col justify-between group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Siap Munaqasyah / Tasmi'</span>
+<div class="flex items-baseline gap-2 mt-1">
+<span class="font-headline-xl text-headline-xl text-on-surface font-bold">38</span>
+<span class="font-body-md text-body-md text-on-surface-variant font-medium">Santri</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center justify-between pt-2">
+<span class="inline-flex items-center gap-1 px-space-sm py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+          Siap Uji Pekan Ini
+        </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">22 Ummi / 16 Tasmi'</span>
+</div>
+</div>
+<!-- KPI 3: Perlu Remedial / Intervensi -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col justify-between group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Perlu Intervensi</span>
+<div class="flex items-baseline gap-2 mt-1">
+<span class="font-headline-xl text-headline-xl text-error font-bold">24</span>
+<span class="font-body-md text-body-md text-on-surface-variant font-medium">Santri</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-xl bg-error-container flex items-center justify-center text-on-error-container">
+<span class="material-symbols-outlined text-[24px]">warning</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center justify-between pt-2">
+<span class="inline-flex items-center gap-1 px-space-sm py-1 rounded-full bg-error-container text-on-error-container font-label-md text-label-md font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-error"></span>
+          Tertinggal &gt; 2 Pekan
+        </span>
+<span class="font-body-sm text-body-sm text-error font-medium">Prioritas Halaqah Sore</span>
+</div>
+</div>
+<!-- KPI 4: Efektivitas Halaqah & Mutu Tahsin -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col justify-between group hover:shadow-md transition-shadow">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Efektivitas Halaqah</span>
+<div class="flex items-baseline gap-2 mt-1">
+<span class="font-headline-xl text-headline-xl text-secondary font-bold">96.2%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Hadir</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed-dim flex items-center justify-center text-on-secondary-fixed-variant">
+<span class="material-symbols-outlined text-[24px]">auto_stories</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center justify-between pt-2">
+<div class="flex items-center gap-1">
+<span class="font-label-md text-label-md text-on-surface-variant">Rerata Nilai Tajwid:</span>
+<span class="font-label-md text-label-md font-bold text-primary">88.4/100</span>
+</div>
+<span class="font-body-sm text-body-sm text-secondary font-semibold">Mutu Sangat Baik</span>
+</div>
+</div>
+</div>
+<!-- Main 2-Column Responsive Workspace Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- LEFT COLUMN (68% Desktop Width ~ 8 Cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- Chart Card: Ketercapaian Target Kurikulum per Jenjang & Kelas -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col gap-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-xs">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">Progres Capaian Target Akademik</span>
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">Ketercapaian Kurikulum per Jenjang &amp; Maqra'</h2>
+</div>
+<!-- View Mode Toggle -->
+<div class="inline-flex p-1 bg-surface-container rounded-xl self-start sm:self-auto" id="curriculumToggle">
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-primary font-label-md text-label-md font-semibold shadow-sm transition-all" type="button">
+              Berdasarkan Juz Hafalan
+            </button>
+<button class="px-space-md py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface font-label-md text-label-md font-medium transition-all" type="button">
+              Berdasarkan Jilid Tahsin
+            </button>
+</div>
+</div>
+<!-- Curriculum Progress Bars Breakdown -->
+<div class="flex flex-col gap-space-md">
+<!-- Item 1: Kelas 1 & 2 SD -->
+<div class="flex flex-col gap-space-xs p-space-sm rounded-xl hover:bg-surface-container-low transition-colors">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-8 rounded-lg bg-primary-fixed flex items-center justify-center font-label-md text-label-md font-bold text-on-primary-fixed">1-2</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">Kelas 1 &amp; 2 SD-IT</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Target Wajib: Juz 30 &amp; Metode Ummi Jilid 1-3</span>
+</div>
+</div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-headline-md text-headline-md text-primary font-bold">91%</span>
+<span class="font-label-md text-label-md text-secondary font-semibold">Tuntas (132/145)</span>
+</div>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-3 overflow-hidden flex">
+<div class="bg-primary-container h-full rounded-full transition-all" style="width: 91%"></div>
+</div>
+</div>
+<!-- Item 2: Kelas 3 & 4 SD -->
+<div class="flex flex-col gap-space-xs p-space-sm rounded-xl hover:bg-surface-container-low transition-colors">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-8 rounded-lg bg-primary-fixed flex items-center justify-center font-label-md text-label-md font-bold text-on-primary-fixed">3-4</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">Kelas 3 &amp; 4 SD-IT</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Target Wajib: Juz 29 &amp; Metode Ummi Jilid 4-6</span>
+</div>
+</div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-headline-md text-headline-md text-primary font-bold">82%</span>
+<span class="font-label-md text-label-md text-secondary font-semibold">Tuntas (118/144)</span>
+</div>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-3 overflow-hidden flex">
+<div class="bg-primary-container h-full rounded-full transition-all" style="width: 82%"></div>
+</div>
+</div>
+<!-- Item 3: Kelas 5 & 6 SD -->
+<div class="flex flex-col gap-space-xs p-space-sm rounded-xl hover:bg-surface-container-low transition-colors">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-8 rounded-lg bg-primary-fixed flex items-center justify-center font-label-md text-label-md font-bold text-on-primary-fixed">5-6</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">Kelas 5 &amp; 6 SD-IT</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Target Wajib: Juz 28 &amp; Al-Qur'an Tartil Gharib</span>
+</div>
+</div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-headline-md text-headline-md text-primary font-bold">86%</span>
+<span class="font-label-md text-label-md text-secondary font-semibold">Tuntas (112/130)</span>
+</div>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-3 overflow-hidden flex">
+<div class="bg-primary-container h-full rounded-full transition-all" style="width: 86%"></div>
+</div>
+</div>
+<!-- Item 4: Kelas 7 SMP -->
+<div class="flex flex-col gap-space-xs p-space-sm rounded-xl hover:bg-surface-container-low transition-colors">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-8 rounded-lg bg-secondary-fixed flex items-center justify-center font-label-md text-label-md font-bold text-on-secondary-fixed">7</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">Kelas 7 SMP-IT</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Target Wajib: Juz 29 Mutqin / Ziyadah Baru Juz 1</span>
+</div>
+</div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-headline-md text-headline-md text-primary font-bold">78%</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-semibold">Tuntas (48/62)</span>
+</div>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-3 overflow-hidden flex">
+<div class="bg-secondary h-full rounded-full transition-all" style="width: 78%"></div>
+</div>
+</div>
+<!-- Item 5: Kelas 8 SMP -->
+<div class="flex flex-col gap-space-xs p-space-sm rounded-xl hover:bg-surface-container-low transition-colors">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-8 rounded-lg bg-secondary-fixed flex items-center justify-center font-label-md text-label-md font-bold text-on-secondary-fixed">8</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">Kelas 8 SMP-IT</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Target Wajib: Juz 28 Mutqin &amp; Tajwid Jazariyyah</span>
+</div>
+</div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-headline-md text-headline-md text-primary font-bold">88%</span>
+<span class="font-label-md text-label-md text-secondary font-semibold">Tuntas (51/58)</span>
+</div>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-3 overflow-hidden flex">
+<div class="bg-primary-container h-full rounded-full transition-all" style="width: 88%"></div>
+</div>
+</div>
+<!-- Item 6: Kelas 9 SMP -->
+<div class="flex flex-col gap-space-xs p-space-sm rounded-xl hover:bg-surface-container-low transition-colors">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-8 rounded-lg bg-secondary-fixed flex items-center justify-center font-label-md text-label-md font-bold text-on-secondary-fixed">9</span>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface font-semibold">Kelas 9 SMP-IT</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Target Wajib: Persiapan Tasmi' 3 Juz Sekali Duduk</span>
+</div>
+</div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-headline-md text-headline-md text-primary font-bold">81%</span>
+<span class="font-label-md text-label-md text-secondary font-semibold">Tuntas (25/31)</span>
+</div>
+</div>
+<div class="w-full bg-surface-container-high rounded-full h-3 overflow-hidden flex">
+<div class="bg-primary-container h-full rounded-full transition-all" style="width: 81%"></div>
+</div>
+</div>
+</div>
+<!-- Summary Maqra Footer Indicator -->
+<div class="pt-space-sm bg-surface-container-low p-space-md rounded-xl flex items-center justify-between">
+<div class="flex items-center gap-space-md">
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-3 rounded-full bg-primary-container"></span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sesuai / Melampaui Target</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-3 rounded-full bg-secondary"></span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sedang Berjalan (Toleransi 1 Pekan)</span>
+</div>
+</div>
+<span class="font-label-md text-label-md text-primary font-semibold">Rapor Tengah Semester: 4 Pekan Lagi</span>
+</div>
+</div>
+<!-- Table Card: Distribusi Pemetaan Halaqah & Kinerja Ustadz Pengampu -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-semibold">Kinerja &amp; Mutaba'ah Halaqah</span>
+<h2 class="font-headline-md text-headline-md text-on-surface font-bold">Pemetaan Kelompok &amp; Pengampu Halaqah</h2>
+</div>
+<div class="flex items-center gap-space-xs">
+<button class="inline-flex items-center gap-1 px-space-md py-2 rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md font-semibold transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px] text-primary">drag_indicator</span>
+<span>Atur Pemetaan Santri</span>
+</button>
+<button class="inline-flex items-center gap-1 px-space-md py-2 rounded-xl bg-primary-container text-on-primary-container font-label-md text-label-md font-semibold shadow-sm hover:bg-primary transition-all" type="button">
+<span class="material-symbols-outlined text-[18px]">group_add</span>
+<span>Tambah Halaqah</span>
+</button>
+</div>
+</div>
+<!-- Table Container -->
+<div class="overflow-x-auto rounded-xl">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-high text-on-surface-variant font-label-md text-label-md uppercase tracking-wider">
+<th class="py-space-sm px-space-md">Halaqah &amp; Kelas</th>
+<th class="py-space-sm px-space-md">Ustadz Pembimbing</th>
+<th class="py-space-sm px-space-md text-center">Santri</th>
+<th class="py-space-sm px-space-md text-center">Capaian</th>
+<th class="py-space-sm px-space-md">Setoran Hari Ini</th>
+<th class="py-space-sm px-space-md text-right">Aksi</th>
+</tr>
+</thead>
+<tbody class="divide-y-0">
+<!-- Row 1: Halaqah Al-Fatih (7A) -->
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py- space-md py-3.5 px-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<div>
+<span class="font-label-lg text-label-lg font-bold text-on-surface block">Al-Fatih</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kelas 7A SMP-IT</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Close up warm academic portrait of an Indonesian male Islamic teacher wearing white peci and grey formal shirt in sunlit classroom" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0onXN25D42vHWdvtegb3nLrD_xHA02iys-cjoJTiTgVsWsc0nuiblUnEFv20Nf3_K0RvTf0-lGZzf9hfuyVBROZqDTzg3yRUfpYw4-6kRQm6pX8QQjjWbTdKVfKQdffM8fWli3hPwUHHCSOcBFI4EjSU5-i77OPbv793EUNPVce00Wxeb1hO80h6Hudjc5orq100FxOda9ALiPnIJL3qO-LR2msSj1bg0ZJVwRybI"/>
+<span class="font-body-md text-body-md text-on-surface font-medium">Ustadz Ahmad Fauzi, S.Pd.I</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center font-label-lg text-label-lg font-semibold text-on-surface">
+                  12
+                </td>
+<td class="py-3.5 px-space-md text-center">
+<div class="inline-flex flex-col items-center">
+<span class="font-label-lg text-label-lg font-bold text-primary">82%</span>
+<div class="w-14 bg-surface-container-high rounded-full h-1.5 overflow-hidden">
+<div class="bg-primary-container h-full rounded-full" style="width: 82%"></div>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="inline-flex items-center gap-1 px-space-sm py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                    9 / 12 Selesai
+                  </span>
+</td>
+<td class="py-3.5 px-space-md text-right">
+<div class="flex items-center justify-end gap-1">
+<button aria-label="Mutasi Santri" class="p-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">swap_horiz</span>
+</button>
+<button aria-label="Detail Halaqah" class="p-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 2: Halaqah An-Nur (7B) -->
+<tr class="bg-surface-container-low/40 hover:bg-surface-container-low transition-colors">
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary"></span>
+<div>
+<span class="font-label-lg text-label-lg font-bold text-on-surface block">An-Nur</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kelas 7B SMP-IT (Putri)</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Portrait of an Indonesian female Islamic teacher wearing a soft teal hijab smiling gently in a library setting with warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzzxp6ZDcvel7AxzBGfdK5yaaoQeom-WLQgG1rSTGB_5dHMH67P988RH1av0cZyj6dlMwJ4QBteQhniz6L0IovtMyxExn6CFSnPVqymDMQgeRSKHZW2SJRCmIA_NEiKQULVBaeKbHLb3YQiXlJhgZ2J98f2rxR201oukdhKR68pvVyqfchSCZvfOdFw7gZhditptFIzLwT0UdKeLvfmKFityMuHahvcq0HBDRVsyYe"/>
+<span class="font-body-md text-body-md text-on-surface font-medium">Ustadzah Siti Maryam</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center font-label-lg text-label-lg font-semibold text-on-surface">
+                  14
+                </td>
+<td class="py-3.5 px-space-md text-center">
+<div class="inline-flex flex-col items-center">
+<span class="font-label-lg text-label-lg font-bold text-primary">91%</span>
+<div class="w-14 bg-surface-container-high rounded-full h-1.5 overflow-hidden">
+<div class="bg-primary-container h-full rounded-full" style="width: 91%"></div>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="inline-flex items-center gap-1 px-space-sm py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+                    14 / 14 Selesai
+                  </span>
+</td>
+<td class="py-3.5 px-space-md text-right">
+<div class="flex items-center justify-end gap-1">
+<button aria-label="Mutasi Santri" class="p-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">swap_horiz</span>
+</button>
+<button aria-label="Detail Halaqah" class="p-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 3: Halaqah Al-Ikhlas (8A) - Needs Attention -->
+<tr class="hover:bg-surface-container-low transition-colors">
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-error"></span>
+<div>
+<span class="font-label-lg text-label-lg font-bold text-on-surface block">Al-Ikhlas</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kelas 8A SMP-IT</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Portrait of an experienced Indonesian Islamic teacher with gentle expression wearing black songkok and blue batik shirt" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpOc_F2AKn8AyQrffaehgVwhW9pu8fH4peml3qeX3nkkNwZjP1mn81oAQqEG_Q77kxi8ohXbKyv099JNQ_9L-2a9EG9P3VRybIhYKcI_vftvizi3OPvNGA3QhEPjY-xn2pNq8SPImaM-VqnHlssPa3mrPhr5JzMrhqZDQ-mcsCWftRwMLFA2pqqy3pEhfLSmnW2tNJRMx1As5UR2y2sSS3HUXabCGE1zJ8ugU7nPyZ"/>
+<span class="font-body-md text-body-md text-on-surface font-medium">Ustadz M. Ridwan</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center font-label-lg text-label-lg font-semibold text-on-surface">
+                  11
+                </td>
+<td class="py-3.5 px-space-md text-center">
+<div class="inline-flex flex-col items-center">
+<span class="font-label-lg text-label-lg font-bold text-error">74%</span>
+<div class="w-14 bg-surface-container-high rounded-full h-1.5 overflow-hidden">
+<div class="bg-error h-full rounded-full" style="width: 74%"></div>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="inline-flex items-center gap-1 px-space-sm py-1 rounded-full bg-error-container text-on-error-container font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[14px]">priority_high</span>
+                    7 / 11 Berlangsung
+                  </span>
+</td>
+<td class="py-3.5 px-space-md text-right">
+<div class="flex items-center justify-end gap-1">
+<button aria-label="Mutasi Santri" class="p-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">swap_horiz</span>
+</button>
+<button aria-label="Detail Halaqah" class="p-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 4: Halaqah Ar-Rahman (9A) -->
+<tr class="bg-surface-container-low/40 hover:bg-surface-container-low transition-colors">
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<div>
+<span class="font-label-lg text-label-lg font-bold text-on-surface block">Ar-Rahman</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kelas 9A SMP-IT</span>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<div class="flex items-center gap-space-xs">
+<img class="w-7 h-7 rounded-full object-cover" data-alt="Portrait of an Islamic scholar Ustadz wearing neat formal white thobe and soft smile inside a modern Islamic academic office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqclo0j8rndg3Kqqfc-hTwq5ZKOvKW38NtdyCnKZvohk43LYwJYA8e6r86I4Jm53t9LOZ233-S273uQgtadxqrDZY40iS5oaYmYF8t8fzBMSsYOiJA1dYJXZx5eHLcqc55Wn7vbJ_XUpiUZNUPOQIlf9cCtFHkJUKFun8HAA2BZqaylC60LmU-lKVuaYdV_VOqjt1Qw3zM_mz31YTvUUz9VJ6y-q6FI1BqemaDP4by"/>
+<span class="font-body-md text-body-md text-on-surface font-medium">Ustadz Zulkifli, Lc</span>
+</div>
+</td>
+<td class="py-3.5 px-space-md text-center font-label-lg text-label-lg font-semibold text-on-surface">
+                  15
+                </td>
+<td class="py-3.5 px-space-md text-center">
+<div class="inline-flex flex-col items-center">
+<span class="font-label-lg text-label-lg font-bold text-primary">89%</span>
+<div class="w-14 bg-surface-container-high rounded-full h-1.5 overflow-hidden">
+<div class="bg-primary-container h-full rounded-full" style="width: 89%"></div>
+</div>
+</div>
+</td>
+<td class="py-3.5 px-space-md">
+<span class="inline-flex items-center gap-1 px-space-sm py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                    15 / 15 Selesai
+                  </span>
+</td>
+<td class="py-3.5 px-space-md text-right">
+<div class="flex items-center justify-end gap-1">
+<button aria-label="Mutasi Santri" class="p-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">swap_horiz</span>
+</button>
+<button aria-label="Detail Halaqah" class="p-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN (32% Desktop Width ~ 4 Cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- Panel 1: Antrean Ujian Munaqasyah & Tasmi' Sekali Duduk -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-primary">verified</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">Antrean Munaqasyah</h3>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md font-bold">
+            3 Santri
+          </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Rekomendasi dari pengampu halaqah untuk verifikasi dan pengujian resmi oleh koordinator.
+        </p>
+<!-- Candidate List -->
+<div class="flex flex-col gap-space-sm">
+<!-- Item 1: Muhammad Raihan -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-lg text-label-lg font-bold text-on-surface block">Muhammad Raihan</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kelas 7A SMP • Halaqah Al-Fatih</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md font-semibold">
+                Ummi Jilid 5
+              </span>
+</div>
+<div class="flex items-center gap-1 font-body-sm text-body-sm text-tertiary">
+<span class="material-symbols-outlined text-[16px] text-secondary">record_voice_over</span>
+<span>Fokus: Uji Makhraj &amp; Ghunnah</span>
+</div>
+<div class="pt-space-xs flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant">Diajukan: Kemarin</span>
+<button class="px-space-md py-1 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md font-semibold hover:bg-primary transition-colors" type="button">
+                Jadwalkan Penguji
+              </button>
+</div>
+</div>
+<!-- Item 2: Aisyah Humaira -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-lg text-label-lg font-bold text-on-surface block">Aisyah Humaira</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kelas 8B SMP • Halaqah Maryam</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md font-semibold">
+                Tasmi' 1 Juz (Juz 30)
+              </span>
+</div>
+<div class="flex items-center gap-1 font-body-sm text-body-sm text-tertiary">
+<span class="material-symbols-outlined text-[16px] text-secondary">chair</span>
+<span>Metode: Sekali Duduk Tanpa Salah</span>
+</div>
+<div class="pt-space-xs flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant">Diajukan: Hari Ini</span>
+<button class="px-space-md py-1 rounded-lg bg-surface-container-highest text-primary font-label-md text-label-md font-semibold hover:bg-surface-container transition-colors" type="button">
+                Verifikasi Berkas
+              </button>
+</div>
+</div>
+<!-- Item 3: Faris Abqary -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs hover:bg-surface-container transition-colors">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-lg text-label-lg font-bold text-on-surface block">Faris Abqary</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kelas 7A SMP • Halaqah Al-Fatih</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md font-semibold">
+                Muroja'ah Juz 29
+              </span>
+</div>
+<div class="flex items-center gap-1 font-body-sm text-body-sm text-tertiary">
+<span class="material-symbols-outlined text-[16px] text-secondary">check_circle</span>
+<span>Khatam Mutqin 3x Putaran</span>
+</div>
+<div class="pt-space-xs flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface-variant">Diajukan: 2 Hari Lalu</span>
+<button class="px-space-md py-1 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md font-semibold hover:bg-primary transition-colors" type="button">
+                Jadwalkan
+              </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Panel 2: Log Intervensi Santri Tertinggal (Remedial Alert) -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs text-error">
+<span class="material-symbols-outlined text-[22px]">notification_important</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">Intervensi Khusus</h3>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-error-container text-on-error-container font-label-md text-label-md font-bold">
+            Prioritas 1
+          </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Santri tertinggal &gt; 2 pekan kurikulum membutuhkan pendampingan halaqah sore dan bimbingan wali.
+        </p>
+<!-- Intervention Cards -->
+<div class="flex flex-col gap-space-sm">
+<div class="p-space-md rounded-xl bg-error-container/30 flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg font-bold text-on-surface">Abdullah Zaki (7A)</span>
+<span class="font-label-md text-label-md text-error font-semibold">Tertinggal 18 Hari</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface">
+              Catatan Asatidz: Butuh penguatan makhraj huruf 'Ain (Ø¹) dan Kha (Ø®) serta kelancaran mad thobi'i (rekomendasi 2x sesi klinis).
+            </p>
+</div>
+<div class="p-space-md rounded-xl bg-error-container/30 flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg font-bold text-on-surface">Bilal Al-Ghazali (8A)</span>
+<span class="font-label-md text-label-md text-error font-semibold">Tertinggal 14 Hari</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface">
+              Catatan Asatidz: Target Ziyadah tertinggal 12 ayat pada Surah Al-Mulk, sering izin sakit di sesi pagi.
+            </p>
+</div>
+</div>
+<!-- Action Button WhatsApp Counseling -->
+<button class="w-full flex items-center justify-center gap-space-xs py-2.5 px-space-md rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface transition-colors font-label-lg text-label-lg font-semibold mt-space-xs" type="button">
+<span class="material-symbols-outlined text-[20px] text-secondary">chat</span>
+<span>Kirim Undangan Konseling Wali via WA</span>
+</button>
+</div>
+<!-- Panel 3: Template & Integrasi Rapor Al-Qur'an SIAKAD -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[22px]">assignment_turned_in</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">Rapor &amp; Format SIAKAD</h3>
+</div>
+<span class="flex items-center gap-1 font-label-md text-label-md text-secondary font-semibold">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+            Online
+          </span>
+</div>
+<!-- Radio Format Selector -->
+<div class="flex flex-col gap-space-xs">
+<label class="flex items-center gap-space-sm p-space-sm rounded-xl bg-surface-container-low hover:bg-surface-container cursor-pointer transition-colors">
+<input checked="" class="w-4 h-4 text-primary focus:ring-0 cursor-pointer" name="rapor_format" type="radio"/>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg font-semibold text-on-surface">Rapor Tengah Semester (PTS)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Lengkap dengan grafik mutaba'ah &amp; adab</span>
+</div>
+</label>
+<label class="flex items-center gap-space-sm p-space-sm rounded-xl bg-surface-container-low hover:bg-surface-container cursor-pointer transition-colors">
+<input class="w-4 h-4 text-primary focus:ring-0 cursor-pointer" name="rapor_format" type="radio"/>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg font-semibold text-on-surface">Rapor Kenaikan Jilid Ummi</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Format standarisasi penilaian Ummi Foundation</span>
+</div>
+</label>
+<label class="flex items-center gap-space-sm p-space-sm rounded-xl bg-surface-container-low hover:bg-surface-container cursor-pointer transition-colors">
+<input class="w-4 h-4 text-primary focus:ring-0 cursor-pointer" name="rapor_format" type="radio"/>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg font-semibold text-on-surface">Sertifikat Syahadah Tasmi'</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Khusus santri lulus ujian 1 Juz / 3 Juz</span>
+</div>
+</label>
+</div>
+<!-- Preview Button -->
+<button class="w-full flex items-center justify-center gap-space-xs py-2.5 px-space-md rounded-xl bg-primary text-on-primary hover:bg-primary-container transition-colors font-label-lg text-label-lg font-semibold shadow-sm mt-space-xs" type="button">
+<span class="material-symbols-outlined text-[18px]">preview</span>
+<span>Generate Preview Rapor Siswa</span>
+</button>
+</div>
+</div>
+</div>
+</div></main></div></body></html>
